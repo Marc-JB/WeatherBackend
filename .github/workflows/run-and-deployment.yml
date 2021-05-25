@@ -2,10 +2,9 @@ name: Run and deployment
 
 on:
   schedule:
-    - cron: "5/20 6-19 * * *"
-    - cron: "5 20-23,0-5 * * *"
-  push:
-    branches: [ main ]
+    - cron: "5/20 5-17 * * *"
+    - cron: "5/30 4,18 * * *"
+    - cron: "5 0-3,19-23 * * *"
 
 jobs:
   run-and-deploy:
