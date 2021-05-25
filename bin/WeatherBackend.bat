@@ -17,7 +17,7 @@
 @if "%DEBUG%" == "" @echo off
 @rem ##########################################################################
 @rem
-@rem  Weather back-end startup script for Windows
+@rem  WeatherBackend startup script for Windows
 @rem
 @rem ##########################################################################
 
@@ -32,7 +32,7 @@ set APP_HOME=%DIRNAME%..
 @rem Resolve any "." and ".." in APP_HOME to make it shorter.
 for %%i in ("%APP_HOME%") do set APP_HOME=%%~fi
 
-@rem Add default JVM options here. You can also use JAVA_OPTS and WEATHER_BACK_END_OPTS to pass JVM options to this script.
+@rem Add default JVM options here. You can also use JAVA_OPTS and WEATHER_BACKEND_OPTS to pass JVM options to this script.
 set DEFAULT_JVM_OPTS=
 
 @rem Find java.exe
@@ -67,20 +67,20 @@ goto fail
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\Weather back-end-0.1.jar;%APP_HOME%\lib\ftp4j-1.7.2.jar;%APP_HOME%\lib\kotlinx-coroutines-core-jvm-1.5.0.jar;%APP_HOME%\lib\kotlin-stdlib-jdk8-1.5.10.jar;%APP_HOME%\lib\kotlin-stdlib-jdk7-1.5.10.jar;%APP_HOME%\lib\kotlinx-serialization-json-jvm-1.2.1.jar;%APP_HOME%\lib\kotlinx-serialization-core-jvm-1.2.1.jar;%APP_HOME%\lib\kotlin-stdlib-1.5.10.jar;%APP_HOME%\lib\annotations-13.0.jar;%APP_HOME%\lib\kotlin-stdlib-common-1.5.10.jar
+set CLASSPATH=%APP_HOME%\lib\WeatherBackend-0.1.jar;%APP_HOME%\lib\ftp4j-1.7.2.jar;%APP_HOME%\lib\kotlinx-coroutines-core-jvm-1.5.0.jar;%APP_HOME%\lib\kotlin-stdlib-jdk8-1.5.10.jar;%APP_HOME%\lib\kotlin-stdlib-jdk7-1.5.10.jar;%APP_HOME%\lib\kotlinx-serialization-json-jvm-1.2.1.jar;%APP_HOME%\lib\kotlinx-serialization-core-jvm-1.2.1.jar;%APP_HOME%\lib\kotlin-stdlib-1.5.10.jar;%APP_HOME%\lib\annotations-13.0.jar;%APP_HOME%\lib\kotlin-stdlib-common-1.5.10.jar
 
 
-@rem Execute Weather back-end
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %WEATHER_BACK_END_OPTS%  -classpath "%CLASSPATH%" MainKt %*
+@rem Execute WeatherBackend
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %WEATHER_BACKEND_OPTS%  -classpath "%CLASSPATH%" MainKt %*
 
 :end
 @rem End local scope for the variables with windows NT shell
 if "%ERRORLEVEL%"=="0" goto mainEnd
 
 :fail
-rem Set variable WEATHER_BACK_END_EXIT_CONSOLE if you need the _script_ return code instead of
+rem Set variable WEATHER_BACKEND_EXIT_CONSOLE if you need the _script_ return code instead of
 rem the _cmd.exe /c_ return code!
-if  not "" == "%WEATHER_BACK_END_EXIT_CONSOLE%" exit 1
+if  not "" == "%WEATHER_BACKEND_EXIT_CONSOLE%" exit 1
 exit /b 1
 
 :mainEnd

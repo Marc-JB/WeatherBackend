@@ -25,11 +25,11 @@ jobs:
 
       # Permissions for project
       - name: Grant execute permission for project
-        run: chmod +x ./bin/"Weather back-end"
+        run: chmod +x ./bin/WeatherBackend
     
       # Run
       - name: Run project
-        run: ./bin/"Weather back-end" "out"
+        run: ./bin/WeatherBackend "out"
     
       # Deploy to GitHub Pages
       - name: Copy README, CNAME, etc.
