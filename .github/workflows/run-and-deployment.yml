@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: "5/20 6-19 * * *"
     - cron: "5 20-23,0-5 * * *"
+  push:
+    branches: [ main ]
 
 jobs:
   run-and-deploy:
