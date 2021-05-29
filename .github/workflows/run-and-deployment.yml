@@ -18,6 +18,10 @@ jobs:
     timeout-minutes: 3
     steps:
     
+      # Timestamp
+      - name: Timestamp
+        run: date
+    
       # Checkout
       - name: Checkout repository
         uses: actions/checkout@v2
