@@ -1,4 +1,4 @@
-name: Run and deployment (third)
+name: Run and deployment (*:43)
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
     # Day: every 40 minutes
     # Evening: every 1 hour
     # 1:23 (+2h), 3:23 (+2h), 4:43, 5:23 (+40m), +40m ... 19:23 (+40m), 20:23 (+1h), 21:23 (+1h), 22:23 (+1h), 23:23 (+1h)
-    - cron: "43 6-18/2,4 * * *"
+    - cron: "43 4,6,8,10,12,14,16,18 * * *"
   workflow_dispatch:
 
 jobs:
