@@ -3,10 +3,10 @@ name: Run and deployment (*:23)
 on:
   schedule:
     # Night: every 2 hours
-    # Day: every 40 minutes
-    # Evening: every 1 hour
-    # 1:23 (+2h), 3:23 (+2h), 4:43, 5:23 (+40m), +40m ... 19:23 (+40m), 20:23 (+1h), 21:23 (+1h), 23:23 (+2h)
-    - cron: "23 1,3,5,7,9,11,12,13,15,17,19,20,21,23 * * *"
+    # Day: every hour
+    # Evening: every hour and 20 minutes
+    # 00:03, 02:03, 04:03, 05:23, 06:23, ..., 18:23, 19:23, 20:43, 22:03
+    - cron: "23 5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 * * *"
   workflow_dispatch:
 
 jobs:
