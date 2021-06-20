@@ -67,7 +67,7 @@ goto fail
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\WeatherBackend-0.1.jar;%APP_HOME%\lib\ftp4j-1.7.2.jar;%APP_HOME%\lib\xmlutil-serialization-jvm-0.82.0.jar;%APP_HOME%\lib\kotlinx-coroutines-core-jvm-1.5.0.jar;%APP_HOME%\lib\xmlutil-jvm-0.82.0.jar;%APP_HOME%\lib\kotlin-stdlib-jdk8-1.5.10.jar;%APP_HOME%\lib\kotlin-stdlib-jdk7-1.5.10.jar;%APP_HOME%\lib\kotlinx-serialization-json-jvm-1.2.1.jar;%APP_HOME%\lib\kotlinx-serialization-protobuf-jvm-1.2.1.jar;%APP_HOME%\lib\kotlinx-serialization-core-jvm-1.2.1.jar;%APP_HOME%\lib\kotlin-stdlib-1.5.10.jar;%APP_HOME%\lib\kotlin-stdlib-common-1.5.10.jar;%APP_HOME%\lib\annotations-13.0.jar
+set CLASSPATH=%APP_HOME%\lib\WeatherBackend-0.1.jar;%APP_HOME%\lib\ftp4j-1.7.2.jar;%APP_HOME%\lib\xmlutil-serialization-jvm-0.82.0.jar;%APP_HOME%\lib\kotlinx-coroutines-core-jvm-1.5.0.jar;%APP_HOME%\lib\koin-core-jvm-3.1.0.jar;%APP_HOME%\lib\xmlutil-jvm-0.82.0.jar;%APP_HOME%\lib\kotlin-stdlib-jdk8-1.5.10.jar;%APP_HOME%\lib\kotlin-stdlib-jdk7-1.5.10.jar;%APP_HOME%\lib\kotlinx-serialization-json-jvm-1.2.1.jar;%APP_HOME%\lib\kotlinx-serialization-protobuf-jvm-1.2.1.jar;%APP_HOME%\lib\kotlinx-serialization-core-jvm-1.2.1.jar;%APP_HOME%\lib\kotlin-stdlib-1.5.10.jar;%APP_HOME%\lib\kotlin-stdlib-common-1.5.10.jar;%APP_HOME%\lib\annotations-13.0.jar
 
 
 @rem Execute WeatherBackend
