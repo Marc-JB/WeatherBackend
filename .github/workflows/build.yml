@@ -48,6 +48,7 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v2
         with:
           target_branch: bin
+          keep_history: true
           build_dir: ./build/install/WeatherBackend/
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
