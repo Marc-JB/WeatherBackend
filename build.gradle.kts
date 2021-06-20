@@ -3,6 +3,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 plugins {
     kotlin("jvm") version "1.5.10"
     kotlin("plugin.serialization") version "1.5.10"
+    id("io.gitlab.arturbosch.detekt") version "1.17.1"
     application
 }
 
@@ -19,6 +20,23 @@ tasks.withType<KotlinCompile> {
 
 application {
     mainClass.set("MainKt")
+}
+
+detekt {
+    toolVersion = "1.17.1"
+
+    config.setFrom(files("$rootDir/config/detekt/detekt.yaml"))
+
+    basePath = projectDir.path
+
+    buildUponDefaultConfig = true
+
+    reports {
+        sarif {
+            enabled = true
+            destination = file("build/reports/detekt/detekt.sarif.json")
+        }
+    }
 }
 
 dependencies {
