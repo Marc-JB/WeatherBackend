@@ -18,7 +18,7 @@
 
 ##############################################################################
 ##
-##  WeatherBackend start up script for UN*X
+##  Gradle start up script for UN*X
 ##
 ##############################################################################
 
@@ -36,15 +36,15 @@ while [ -h "$PRG" ] ; do
     fi
 done
 SAVED="`pwd`"
-cd "`dirname \"$PRG\"`/.." >/dev/null
+cd "`dirname \"$PRG\"`/" >/dev/null
 APP_HOME="`pwd -P`"
 cd "$SAVED" >/dev/null
 
-APP_NAME="WeatherBackend"
+APP_NAME="Gradle"
 APP_BASE_NAME=`basename "$0"`
 
-# Add default JVM options here. You can also use JAVA_OPTS and WEATHER_BACKEND_OPTS to pass JVM options to this script.
-DEFAULT_JVM_OPTS=""
+# Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
+DEFAULT_JVM_OPTS='"-Xmx64m" "-Xms64m"'
 
 # Use the maximum available, or set MAX_FD != -1 to use that value.
 MAX_FD="maximum"
@@ -80,7 +80,7 @@ case "`uname`" in
     ;;
 esac
 
-CLASSPATH=$APP_HOME/lib/WeatherBackend-0.1.jar:$APP_HOME/lib/ftp4j-1.7.2.jar:$APP_HOME/lib/kotlinx-coroutines-core-jvm-1.5.0.jar:$APP_HOME/lib/kotlin-stdlib-jdk8-1.5.10.jar:$APP_HOME/lib/kotlin-stdlib-jdk7-1.5.10.jar:$APP_HOME/lib/kotlinx-serialization-json-jvm-1.2.1.jar:$APP_HOME/lib/kotlinx-serialization-core-jvm-1.2.1.jar:$APP_HOME/lib/kotlin-stdlib-1.5.10.jar:$APP_HOME/lib/annotations-13.0.jar:$APP_HOME/lib/kotlin-stdlib-common-1.5.10.jar
+CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
 
 
 # Determine the Java command to use to start the JVM.
@@ -180,6 +180,6 @@ save () {
 APP_ARGS=`save "$@"`
 
 # Collect all arguments for the java command, following the shell quoting and substitution rules
-eval set -- $DEFAULT_JVM_OPTS $JAVA_OPTS $WEATHER_BACKEND_OPTS -classpath "\"$CLASSPATH\"" MainKt "$APP_ARGS"
+eval set -- $DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS "\"-Dorg.gradle.appname=$APP_BASE_NAME\"" -classpath "\"$CLASSPATH\"" org.gradle.wrapper.GradleWrapperMain "$APP_ARGS"
 
 exec "$JAVACMD" "$@"

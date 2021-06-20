@@ -1,0 +1,53 @@
+name: Build
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    
+      # Checkout
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # Set up Java
+      - name: Set up JDK 11
+        uses: actions/setup-java@v2
+        with:
+          java-version: '11'
+          distribution: 'adopt'
+
+      # Cache
+      - uses: actions/cache@v2
+        with:
+          path: ~/.gradle/caches
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*') }}
+          restore-keys: ${{ runner.os }}-gradle-
+
+      # Permissions for Gradle
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+    
+      # Build
+      - name: Build with Gradle
+        run: ./gradlew installDist
+    
+      # Deploy to GitHub Pages
+      - name: Copy README, CNAME, etc.
+        run: |
+          sudo cp ./CNAME ./build/install/WeatherBackend/CNAME || echo "No CNAME"
+          sudo cp ./README.md ./build/install/WeatherBackend/README.md || echo "No README.md"
+          sudo cp ./LICENSE ./build/install/WeatherBackend/LICENSE || echo "No LICENSE"
+    
+      - name: Deploy to GitHub Pages
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target_branch: bin
+          build_dir: ./build/install/WeatherBackend/
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
