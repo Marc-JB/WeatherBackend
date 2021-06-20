@@ -2,13 +2,13 @@ package nl.marc_apps.weather.uv_index
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToByteArray
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.protobuf.ProtoBuf
 import nl.marc_apps.weather.DataRepresentation
-import nl.marc_apps.weather.serialization.DateSerializer
+import org.koin.core.component.KoinComponent
+import org.koin.core.component.inject
 import java.io.File
 import java.nio.file.Path
 import java.time.LocalDate
@@ -18,13 +18,17 @@ import java.time.format.DateTimeFormatter
 import java.util.*
 import kotlin.io.path.div
 
-object UltravioletIndexReport {
+class UltravioletIndexReport : KoinComponent {
+    private val jsonSerialization by inject<Json>()
+
+    private val protoBufSerialization by inject<ProtoBuf>()
+
     private val DUTCH = Locale.Builder().setLanguage("nl").setRegion("NL").build()
 
     suspend fun generate(rootDir: Path, fileNames: Collection<String>): Collection<String> {
         val reportPath = rootDir / "ultraviolet_index.json"
         val reportFile = File(reportPath.toUri())
-        val reportPathProto = rootDir / "ultraviolet_index.proto"
+        val reportPathProto = rootDir / "ultraviolet_index.proto.bin"
         val reportFileProto = File(reportPathProto.toUri())
         val data = mutableListOf<UltravioletIndex>()
 
@@ -67,11 +71,9 @@ object UltravioletIndexReport {
         }
 
         withContext(Dispatchers.IO) {
-            reportFile.writeText(Json {
-                prettyPrint = true
-            }.encodeToString(DataRepresentation(data = data)))
+            reportFile.writeText(jsonSerialization.encodeToString(DataRepresentation(data = data)))
 
-            reportFileProto.writeBytes(ProtoBuf.encodeToByteArray(DataRepresentation(data = data)))
+            reportFileProto.writeBytes(protoBufSerialization.encodeToByteArray(DataRepresentation(data = data)))
 
             val filesToRemove = listOf("zonkracht.txt", "zonkracht_who.txt", "zonkrachtverwachting.xml", "zonkrachtverwachting_who.xml")
             for (fileToRemove in filesToRemove) {

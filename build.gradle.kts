@@ -23,7 +23,11 @@ application {
 
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to arrayOf("*.jar"))))
+
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0")
+
+    implementation("io.insert-koin:koin-core:3.1.0")
+
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.2.1")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-protobuf:1.2.1")
     implementation("io.github.pdvrieze.xmlutil:serialization-jvm:0.82.0")

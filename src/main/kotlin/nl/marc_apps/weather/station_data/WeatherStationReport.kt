@@ -2,41 +2,34 @@ package nl.marc_apps.weather.station_data
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import kotlinx.serialization.Serializable
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.encodeToByteArray
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.protobuf.ProtoBuf
 import nl.marc_apps.weather.DataRepresentation
-import nl.marc_apps.weather.serialization.DateSerializer
+import org.koin.core.component.KoinComponent
+import org.koin.core.component.inject
 import java.io.File
 import java.nio.file.Path
-import java.time.LocalDate
-import java.time.LocalTime
-import java.time.ZoneOffset
-import java.time.format.DateTimeFormatter
-import java.util.*
 import kotlin.io.path.div
 
-object WeatherStationReport {
-    private val DUTCH = Locale.Builder().setLanguage("nl").setRegion("NL").build()
+class WeatherStationReport : KoinComponent {
+    private val jsonSerialization by inject<Json>()
+
+    private val protoBufSerialization by inject<ProtoBuf>()
 
     suspend fun generate(rootDir: Path, fileNames: Collection<String>): Collection<String> {
         val reportPath = rootDir / "weather_stations_data.json"
         val reportFile = File(reportPath.toUri())
-        val reportPathProto = rootDir / "weather_stations_data.proto"
+        val reportPathProto = rootDir / "weather_stations_data.proto.bin"
         val reportFileProto = File(reportPathProto.toUri())
         val data = mutableListOf<WeatherStationData>()
 
         if ("tabel_10Min_data.json" in fileNames) {
             val file = File((rootDir / "tabel_10Min_data.json").toUri())
             withContext(Dispatchers.IO) {
-                val knmiData = Json {
-                    ignoreUnknownKeys = true
-                    isLenient = true
-                    coerceInputValues = true
-                }.decodeFromString<WeatherStationDataKnmi>(file.readText())
+                val knmiData = jsonSerialization.decodeFromString<WeatherStationDataKnmi>(file.readText())
                 for (station in knmiData.stations) {
                     data += WeatherStationData(
                         name = station.name,
@@ -55,11 +48,9 @@ object WeatherStationReport {
         }
 
         withContext(Dispatchers.IO) {
-            reportFile.writeText(Json {
-                prettyPrint = true
-            }.encodeToString(DataRepresentation(data = data)))
+            reportFile.writeText(jsonSerialization.encodeToString(DataRepresentation(data = data)))
 
-            reportFileProto.writeBytes(ProtoBuf.encodeToByteArray(DataRepresentation(data = data)))
+            reportFileProto.writeBytes(protoBufSerialization.encodeToByteArray(DataRepresentation(data = data)))
 
             val filesToRemove = listOf("tabel_10Min_data.json", "tabel_10min_data.html")
             for (fileToRemove in filesToRemove) {
