@@ -2,7 +2,10 @@ package nl.marc_apps.weather
 
 import it.sauronsoftware.ftp4j.FTPClient
 import it.sauronsoftware.ftp4j.FTPFile
-import kotlinx.coroutines.*
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.MainScope
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import java.io.File
 
 class SuspendingFtpClient : AutoCloseable {

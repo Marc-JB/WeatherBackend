@@ -34,7 +34,7 @@ object WeatherReportDownloader {
         var skippedFilesCount = 0u
 
         for (file in weatherReports) {
-            if(shouldDownloadFile(file)) {
+            if (shouldDownloadFile(file)) {
                 val output = File((outDir / file.name).toUri())
                 try {
                     client.downloadFile(file, output)
