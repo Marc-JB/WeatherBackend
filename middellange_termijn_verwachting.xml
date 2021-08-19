@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2021-08-19T18:11:15">
+   <Middellange_x0020_en_x0020_lange_x0020_Termijn>
+      <verwachting_meerdaagse>Op zaterdag geregeld zon en vooral in het zuidoosten zomerse temperaturen. Zondag enkele regen- en onweersbuien, ook maandag nog enkele buien. Vanaf dinsdag waarschijnlijk droog en zonnige perioden. De maximumtemperatuur ligt vanaf zondag met ca. 22°C rond het langjarig gemiddelde.
+
+Op zondag is er een grote kans (meer dan 60%) op code geel voor onweersbuien.</verwachting_meerdaagse>
+      <verwachting_lange_termijn_tekst>Aanvankelijk een rustig en droog weertype met geregeld zon en temperaturen rond het langjarig gemiddelde. Op de langere termijn toenemende kans op neerslag.</verwachting_lange_termijn_tekst>
+      <zonneschijnkans_dag1>30</zonneschijnkans_dag1>
+      <neerslagkans_dag1>40</neerslagkans_dag1>
+      <neerslaghoeveelheid_min_dag1>0</neerslaghoeveelheid_min_dag1>
+      <neerslaghoeveelheid_max_dag1>3</neerslaghoeveelheid_max_dag1>
+      <minimumtemperatuur_min_dag1>14</minimumtemperatuur_min_dag1>
+      <minimumtemperatuur_max_dag1>14</minimumtemperatuur_max_dag1>
+      <maximumtemperatuur_min_dag1>21</maximumtemperatuur_min_dag1>
+      <maximumtemperatuur_max_dag1>21</maximumtemperatuur_max_dag1>
+      <windrichting_dag1>ZW</windrichting_dag1>
+      <windkracht_dag1>3</windkracht_dag1>
+      <zonneschijnkans_dag2>20</zonneschijnkans_dag2>
+      <neerslagkans_dag2>70</neerslagkans_dag2>
+      <neerslaghoeveelheid_min_dag2>2</neerslaghoeveelheid_min_dag2>
+      <neerslaghoeveelheid_max_dag2>2</neerslaghoeveelheid_max_dag2>
+      <minimumtemperatuur_min_dag2>13</minimumtemperatuur_min_dag2>
+      <minimumtemperatuur_max_dag2>13</minimumtemperatuur_max_dag2>
+      <maximumtemperatuur_min_dag2>23</maximumtemperatuur_min_dag2>
+      <maximumtemperatuur_max_dag2>23</maximumtemperatuur_max_dag2>
+      <windrichting_dag2>Z</windrichting_dag2>
+      <windkracht_dag2>2</windkracht_dag2>
+      <zonneschijnkans_dag3>20</zonneschijnkans_dag3>
+      <neerslagkans_dag3>90</neerslagkans_dag3>
+      <neerslaghoeveelheid_min_dag3>8</neerslaghoeveelheid_min_dag3>
+      <neerslaghoeveelheid_max_dag3>14</neerslaghoeveelheid_max_dag3>
+      <minimumtemperatuur_min_dag3>16</minimumtemperatuur_min_dag3>
+      <minimumtemperatuur_max_dag3>16</minimumtemperatuur_max_dag3>
+      <maximumtemperatuur_min_dag3>19</maximumtemperatuur_min_dag3>
+      <maximumtemperatuur_max_dag3>20</maximumtemperatuur_max_dag3>
+      <windrichting_dag3>W</windrichting_dag3>
+      <windkracht_dag3>3</windkracht_dag3>
+      <zonneschijnkans_dag4>50</zonneschijnkans_dag4>
+      <neerslagkans_dag4>30</neerslagkans_dag4>
+      <neerslaghoeveelheid_min_dag4>0</neerslaghoeveelheid_min_dag4>
+      <neerslaghoeveelheid_max_dag4>1</neerslaghoeveelheid_max_dag4>
+      <minimumtemperatuur_min_dag4>14</minimumtemperatuur_min_dag4>
+      <minimumtemperatuur_max_dag4>16</minimumtemperatuur_max_dag4>
+      <maximumtemperatuur_min_dag4>20</maximumtemperatuur_min_dag4>
+      <maximumtemperatuur_max_dag4>21</maximumtemperatuur_max_dag4>
+      <windrichting_dag4>N</windrichting_dag4>
+      <windkracht_dag4>4</windkracht_dag4>
+      <zonneschijnkans_dag5>70</zonneschijnkans_dag5>
+      <neerslagkans_dag5>10</neerslagkans_dag5>
+      <neerslaghoeveelheid_min_dag5>0</neerslaghoeveelheid_min_dag5>
+      <neerslaghoeveelheid_max_dag5>0</neerslaghoeveelheid_max_dag5>
+      <minimumtemperatuur_min_dag5>12</minimumtemperatuur_min_dag5>
+      <minimumtemperatuur_max_dag5>13</minimumtemperatuur_max_dag5>
+      <maximumtemperatuur_min_dag5>20</maximumtemperatuur_min_dag5>
+      <maximumtemperatuur_max_dag5>20</maximumtemperatuur_max_dag5>
+      <windrichting_dag5>NO</windrichting_dag5>
+      <windkracht_dag5>3</windkracht_dag5>
+      <zonneschijnkans_dag6>60</zonneschijnkans_dag6>
+      <neerslagkans_dag6>10</neerslagkans_dag6>
+      <neerslaghoeveelheid_min_dag6>0</neerslaghoeveelheid_min_dag6>
+      <neerslaghoeveelheid_max_dag6>0</neerslaghoeveelheid_max_dag6>
+      <minimumtemperatuur_min_dag6>11</minimumtemperatuur_min_dag6>
+      <minimumtemperatuur_max_dag6>13</minimumtemperatuur_max_dag6>
+      <maximumtemperatuur_min_dag6>19</maximumtemperatuur_min_dag6>
+      <maximumtemperatuur_max_dag6>20</maximumtemperatuur_max_dag6>
+      <windrichting_dag6>NO</windrichting_dag6>
+      <windkracht_dag6>3</windkracht_dag6>
+      <norm_m1_dec1_tx>22.8</norm_m1_dec1_tx>
+      <norm_m1_dec1_tn>13.8</norm_m1_dec1_tn>
+      <norm_m1_dec1_ss>45</norm_m1_dec1_ss>
+      <norm_m1_dec1_rh>20.5</norm_m1_dec1_rh>
+      <norm_m1_dec2_tx>22.4</norm_m1_dec2_tx>
+      <norm_m1_dec2_tn>13.4</norm_m1_dec2_tn>
+      <norm_m1_dec2_ss>45</norm_m1_dec2_ss>
+      <norm_m1_dec2_rh>24.8</norm_m1_dec2_rh>
+      <norm_m1_dec3_tx>20.8</norm_m1_dec3_tx>
+      <norm_m1_dec3_tn>12.7</norm_m1_dec3_tn>
+      <norm_m1_dec3_ss>39</norm_m1_dec3_ss>
+      <norm_m1_dec3_rh>28.4</norm_m1_dec3_rh>
+      <norm_m2_dec1_tx>19.7</norm_m2_dec1_tx>
+      <norm_m2_dec1_tn>11.7</norm_m2_dec1_tn>
+      <norm_m2_dec1_ss>39</norm_m2_dec1_ss>
+      <norm_m2_dec1_rh>22.9</norm_m2_dec1_rh>
+      <norm_m2_dec2_tx>18.6</norm_m2_dec2_tx>
+      <norm_m2_dec2_tn>10.8</norm_m2_dec2_tn>
+      <norm_m2_dec2_ss>37</norm_m2_dec2_ss>
+      <norm_m2_dec2_rh>27.4</norm_m2_dec2_rh>
+      <norm_m2_dec3_tx>17.7</norm_m2_dec3_tx>
+      <norm_m2_dec3_tn>10.2</norm_m2_dec3_tn>
+      <norm_m2_dec3_ss>37</norm_m2_dec3_ss>
+      <norm_m2_dec3_rh>24</norm_m2_dec3_rh>
+      <dag-1_dd>18</dag-1_dd>
+      <dag0_dd>19</dag0_dd>
+      <dag1_dd>20</dag1_dd>
+      <dag2_dd>21</dag2_dd>
+      <dag3_dd>22</dag3_dd>
+      <dag4_dd>23</dag4_dd>
+      <dag5_dd>24</dag5_dd>
+      <dag6_dd>25</dag6_dd>
+      <dag7_dd>26</dag7_dd>
+      <dag8_dd>27</dag8_dd>
+      <dag9_dd>28</dag9_dd>
+      <dag10_dd>29</dag10_dd>
+      <dag-1_mm>08</dag-1_mm>
+      <dag0_mm>08</dag0_mm>
+      <dag1_mm>08</dag1_mm>
+      <dag2_mm>08</dag2_mm>
+      <dag3_mm>08</dag3_mm>
+      <dag4_mm>08</dag4_mm>
+      <dag5_mm>08</dag5_mm>
+      <dag6_mm>08</dag6_mm>
+      <dag7_mm>08</dag7_mm>
+      <dag8_mm>08</dag8_mm>
+      <dag9_mm>08</dag9_mm>
+      <dag10_mm>08</dag10_mm>
+      <dag-1_yy>21</dag-1_yy>
+      <dag0_yy>21</dag0_yy>
+      <dag1_yy>21</dag1_yy>
+      <dag2_yy>21</dag2_yy>
+      <dag3_yy>21</dag3_yy>
+      <dag4_yy>21</dag4_yy>
+      <dag5_yy>21</dag5_yy>
+      <dag6_yy>21</dag6_yy>
+      <dag7_yy>21</dag7_yy>
+      <dag8_yy>21</dag8_yy>
+      <dag9_yy>21</dag9_yy>
+      <dag10_yy>21</dag10_yy>
+      <dag-1_ddd>wo</dag-1_ddd>
+      <dag0_ddd>do</dag0_ddd>
+      <dag1_ddd>vr</dag1_ddd>
+      <dag2_ddd>za</dag2_ddd>
+      <dag3_ddd>zo</dag3_ddd>
+      <dag4_ddd>ma</dag4_ddd>
+      <dag5_ddd>di</dag5_ddd>
+      <dag6_ddd>wo</dag6_ddd>
+      <dag7_ddd>do</dag7_ddd>
+      <dag8_ddd>vr</dag8_ddd>
+      <dag9_ddd>za</dag9_ddd>
+      <dag10_ddd>zo</dag10_ddd>
+      <dag-1_dddd_dd_mmmm_yyyy>woensdag 18 augustus 2021</dag-1_dddd_dd_mmmm_yyyy>
+      <dag0_dddd_dd_mmmm_yyyy>donderdag 19 augustus 2021</dag0_dddd_dd_mmmm_yyyy>
+      <dag1_dddd_dd_mmmm_yyyy>vrijdag 20 augustus 2021</dag1_dddd_dd_mmmm_yyyy>
+      <dag2_dddd_dd_mmmm_yyyy>zaterdag 21 augustus 2021</dag2_dddd_dd_mmmm_yyyy>
+      <dag3_dddd_dd_mmmm_yyyy>zondag 22 augustus 2021</dag3_dddd_dd_mmmm_yyyy>
+      <dag4_dddd_dd_mmmm_yyyy>maandag 23 augustus 2021</dag4_dddd_dd_mmmm_yyyy>
+      <dag5_dddd_dd_mmmm_yyyy>dinsdag 24 augustus 2021</dag5_dddd_dd_mmmm_yyyy>
+      <dag6_dddd_dd_mmmm_yyyy>woensdag 25 augustus 2021</dag6_dddd_dd_mmmm_yyyy>
+      <dag7_dddd_dd_mmmm_yyyy>donderdag 26 augustus 2021</dag7_dddd_dd_mmmm_yyyy>
+      <dag8_dddd_dd_mmmm_yyyy>vrijdag 27 augustus 2021</dag8_dddd_dd_mmmm_yyyy>
+      <dag9_dddd_dd_mmmm_yyyy>zaterdag 28 augustus 2021</dag9_dddd_dd_mmmm_yyyy>
+      <dag10_dddd_dd_mmmm_yyyy>zondag 29 augustus 2021</dag10_dddd_dd_mmmm_yyyy>
+      <dag-1_dddd_dd_mmmm>woensdag 18 augustus</dag-1_dddd_dd_mmmm>
+      <dag0_dddd_dd_mmmm>donderdag 19 augustus</dag0_dddd_dd_mmmm>
+      <dag1_dddd_dd_mmmm>vrijdag 20 augustus</dag1_dddd_dd_mmmm>
+      <dag2_dddd_dd_mmmm>zaterdag 21 augustus</dag2_dddd_dd_mmmm>
+      <dag3_dddd_dd_mmmm>zondag 22 augustus</dag3_dddd_dd_mmmm>
+      <dag4_dddd_dd_mmmm>maandag 23 augustus</dag4_dddd_dd_mmmm>
+      <dag5_dddd_dd_mmmm>dinsdag 24 augustus</dag5_dddd_dd_mmmm>
+      <dag6_dddd_dd_mmmm>woensdag 25 augustus</dag6_dddd_dd_mmmm>
+      <dag7_dddd_dd_mmmm>donderdag 26 augustus</dag7_dddd_dd_mmmm>
+      <dag8_dddd_dd_mmmm>vrijdag 27 augustus</dag8_dddd_dd_mmmm>
+      <dag9_dddd_dd_mmmm>zaterdag 28 augustus</dag9_dddd_dd_mmmm>
+      <dag10_dddd_dd_mmmm>zondag 29 augustus</dag10_dddd_dd_mmmm>
+      <tijd_aanmaak>18.11</tijd_aanmaak>
+   </Middellange_x0020_en_x0020_lange_x0020_Termijn>
+</dataroot>

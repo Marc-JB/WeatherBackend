@@ -1,0 +1,448 @@
+{
+    "data": [
+        {
+            "name": "Lauwersoog",
+            "overcast": null,
+            "temperature": 14.9,
+            "humidity": 96,
+            "wind": {
+                "direction": "S",
+                "strengthBeaufort": 3
+            },
+            "visibility": null,
+            "airPressure": null
+        },
+        {
+            "name": "Nieuw Beerta",
+            "overcast": null,
+            "temperature": 14.1,
+            "humidity": 99,
+            "wind": {
+                "direction": "S",
+                "strengthBeaufort": 2
+            },
+            "visibility": null,
+            "airPressure": null
+        },
+        {
+            "name": "Terschelling",
+            "overcast": null,
+            "temperature": 15.0,
+            "humidity": 96,
+            "wind": {
+                "direction": "W",
+                "strengthBeaufort": 3
+            },
+            "visibility": 30000,
+            "airPressure": 1013.1
+        },
+        {
+            "name": "Vlieland",
+            "overcast": "droog na regen",
+            "temperature": 16.4,
+            "humidity": 88,
+            "wind": {
+                "direction": "W",
+                "strengthBeaufort": 6
+            },
+            "visibility": 18000,
+            "airPressure": 1013.2
+        },
+        {
+            "name": "Leeuwarden",
+            "overcast": "lichte motregen",
+            "temperature": 15.1,
+            "humidity": 97,
+            "wind": {
+                "direction": "S",
+                "strengthBeaufort": 2
+            },
+            "visibility": 14000,
+            "airPressure": 1013.5
+        },
+        {
+            "name": "Stavoren",
+            "overcast": "zwaar bewolkt",
+            "temperature": 15.3,
+            "humidity": 95,
+            "wind": {
+                "direction": "SW",
+                "strengthBeaufort": 3
+            },
+            "visibility": 11000,
+            "airPressure": null
+        },
+        {
+            "name": "Houtribdijk",
+            "overcast": null,
+            "temperature": null,
+            "humidity": null,
+            "wind": {
+                "direction": "WSW",
+                "strengthBeaufort": 6
+            },
+            "visibility": null,
+            "airPressure": null
+        },
+        {
+            "name": "Eelde",
+            "overcast": "regen",
+            "temperature": 15.0,
+            "humidity": 98,
+            "wind": {
+                "direction": "W",
+                "strengthBeaufort": 2
+            },
+            "visibility": 3000,
+            "airPressure": 1013.6
+        },
+        {
+            "name": "Hoogeveen",
+            "overcast": "lichte motregen",
+            "temperature": 15.2,
+            "humidity": 97,
+            "wind": {
+                "direction": "W",
+                "strengthBeaufort": 3
+            },
+            "visibility": 4400,
+            "airPressure": 1014.1
+        },
+        {
+            "name": "Heino",
+            "overcast": null,
+            "temperature": 15.3,
+            "humidity": 93,
+            "wind": {
+                "direction": "SSW",
+                "strengthBeaufort": 2
+            },
+            "visibility": null,
+            "airPressure": null
+        },
+        {
+            "name": "Twente",
+            "overcast": "geheel bewolkt",
+            "temperature": 15.3,
+            "humidity": 97,
+            "wind": {
+                "direction": "SSW",
+                "strengthBeaufort": 2
+            },
+            "visibility": 4300,
+            "airPressure": 1014.7
+        },
+        {
+            "name": "Deelen",
+            "overcast": "geheel bewolkt",
+            "temperature": 14.7,
+            "humidity": 97,
+            "wind": {
+                "direction": "SSW",
+                "strengthBeaufort": 2
+            },
+            "visibility": 3900,
+            "airPressure": 1014.7
+        },
+        {
+            "name": "Hupsel",
+            "overcast": null,
+            "temperature": 15.3,
+            "humidity": 91,
+            "wind": {
+                "direction": "SSW",
+                "strengthBeaufort": 1
+            },
+            "visibility": null,
+            "airPressure": null
+        },
+        {
+            "name": "Herwijnen",
+            "overcast": null,
+            "temperature": 13.7,
+            "humidity": 95,
+            "wind": {
+                "direction": "SW",
+                "strengthBeaufort": 1
+            },
+            "visibility": null,
+            "airPressure": 1015.0
+        },
+        {
+            "name": "Marknesse",
+            "overcast": "droog na motregen",
+            "temperature": 15.0,
+            "humidity": 94,
+            "wind": {
+                "direction": "S",
+                "strengthBeaufort": 2
+            },
+            "visibility": 14000,
+            "airPressure": null
+        },
+        {
+            "name": "Lelystad",
+            "overcast": "geheel bewolkt",
+            "temperature": 15.2,
+            "humidity": 92,
+            "wind": {
+                "direction": "SW",
+                "strengthBeaufort": 3
+            },
+            "visibility": 12000,
+            "airPressure": 1014.3
+        },
+        {
+            "name": "De Bilt",
+            "overcast": "geheel bewolkt",
+            "temperature": 15.5,
+            "humidity": 83,
+            "wind": {
+                "direction": "SW",
+                "strengthBeaufort": 2
+            },
+            "visibility": 25000,
+            "airPressure": 1014.6
+        },
+        {
+            "name": "Cabauw",
+            "overcast": null,
+            "temperature": 14.2,
+            "humidity": 91,
+            "wind": {
+                "direction": "SSW",
+                "strengthBeaufort": 2
+            },
+            "visibility": 16000,
+            "airPressure": 1014.7
+        },
+        {
+            "name": "Den Helder",
+            "overcast": "geheel bewolkt",
+            "temperature": 16.5,
+            "humidity": 87,
+            "wind": {
+                "direction": "WSW",
+                "strengthBeaufort": 4
+            },
+            "visibility": 19000,
+            "airPressure": 1013.5
+        },
+        {
+            "name": "Texelhors",
+            "overcast": null,
+            "temperature": null,
+            "humidity": null,
+            "wind": {
+                "direction": "WSW",
+                "strengthBeaufort": 6
+            },
+            "visibility": null,
+            "airPressure": null
+        },
+        {
+            "name": "Berkhout",
+            "overcast": null,
+            "temperature": 14.0,
+            "humidity": 98,
+            "wind": {
+                "direction": "SW",
+                "strengthBeaufort": 2
+            },
+            "visibility": 4200,
+            "airPressure": null
+        },
+        {
+            "name": "IJmuiden",
+            "overcast": null,
+            "temperature": null,
+            "humidity": null,
+            "wind": {
+                "direction": "WSW",
+                "strengthBeaufort": 8
+            },
+            "visibility": null,
+            "airPressure": null
+        },
+        {
+            "name": "Wijk aan Zee",
+            "overcast": null,
+            "temperature": 16.6,
+            "humidity": 82,
+            "wind": {
+                "direction": null,
+                "strengthBeaufort": null
+            },
+            "visibility": null,
+            "airPressure": null
+        },
+        {
+            "name": "Schiphol",
+            "overcast": "zwaar bewolkt",
+            "temperature": 14.2,
+            "humidity": 90,
+            "wind": {
+                "direction": "SW",
+                "strengthBeaufort": 4
+            },
+            "visibility": 13000,
+            "airPressure": 1014.2
+        },
+        {
+            "name": "Voorschoten",
+            "overcast": "onbewolkt",
+            "temperature": 12.8,
+            "humidity": 96,
+            "wind": {
+                "direction": "S",
+                "strengthBeaufort": 1
+            },
+            "visibility": 11000,
+            "airPressure": 1014.4
+        },
+        {
+            "name": "Rotterdam",
+            "overcast": "onbewolkt",
+            "temperature": 13.2,
+            "humidity": 96,
+            "wind": {
+                "direction": "SSW",
+                "strengthBeaufort": 2
+            },
+            "visibility": 23000,
+            "airPressure": 1014.6
+        },
+        {
+            "name": "Hoek van Holland",
+            "overcast": null,
+            "temperature": 16.5,
+            "humidity": 87,
+            "wind": {
+                "direction": "WSW",
+                "strengthBeaufort": 5
+            },
+            "visibility": null,
+            "airPressure": 1014.5
+        },
+        {
+            "name": "Wilhelminadorp",
+            "overcast": null,
+            "temperature": 15.2,
+            "humidity": 84,
+            "wind": {
+                "direction": "SSW",
+                "strengthBeaufort": 3
+            },
+            "visibility": null,
+            "airPressure": 1014.8
+        },
+        {
+            "name": "Vlissingen",
+            "overcast": "half bewolkt",
+            "temperature": 16.0,
+            "humidity": 84,
+            "wind": {
+                "direction": "SSW",
+                "strengthBeaufort": 5
+            },
+            "visibility": 22000,
+            "airPressure": 1015.0
+        },
+        {
+            "name": "Westdorpe",
+            "overcast": "lichte regen",
+            "temperature": 14.9,
+            "humidity": 87,
+            "wind": {
+                "direction": "SW",
+                "strengthBeaufort": 3
+            },
+            "visibility": 2500,
+            "airPressure": 1015.4
+        },
+        {
+            "name": "Woensdrecht",
+            "overcast": "licht bewolkt",
+            "temperature": 14.3,
+            "humidity": 88,
+            "wind": {
+                "direction": "SSW",
+                "strengthBeaufort": 2
+            },
+            "visibility": 19000,
+            "airPressure": 1015.2
+        },
+        {
+            "name": "Gilze Rijen",
+            "overcast": "licht bewolkt",
+            "temperature": 13.4,
+            "humidity": 93,
+            "wind": {
+                "direction": "SSW",
+                "strengthBeaufort": 2
+            },
+            "visibility": 15000,
+            "airPressure": 1015.0
+        },
+        {
+            "name": "Volkel",
+            "overcast": "geheel bewolkt",
+            "temperature": 13.5,
+            "humidity": 98,
+            "wind": {
+                "direction": "WSW",
+                "strengthBeaufort": 1
+            },
+            "visibility": 5000,
+            "airPressure": 1015.1
+        },
+        {
+            "name": "Eindhoven",
+            "overcast": "geheel bewolkt",
+            "temperature": 13.6,
+            "humidity": 96,
+            "wind": {
+                "direction": "WSW",
+                "strengthBeaufort": 2
+            },
+            "visibility": 12000,
+            "airPressure": 1015.4
+        },
+        {
+            "name": "Ell",
+            "overcast": "zwaar bewolkt",
+            "temperature": 14.5,
+            "humidity": 94,
+            "wind": {
+                "direction": "S",
+                "strengthBeaufort": 2
+            },
+            "visibility": 26000,
+            "airPressure": null
+        },
+        {
+            "name": "Arcen",
+            "overcast": null,
+            "temperature": 14.1,
+            "humidity": 95,
+            "wind": {
+                "direction": "ENE",
+                "strengthBeaufort": 0
+            },
+            "visibility": null,
+            "airPressure": null
+        },
+        {
+            "name": "Maastricht-Aachen Airport",
+            "overcast": "geheel bewolkt",
+            "temperature": 16.0,
+            "humidity": 82,
+            "wind": {
+                "direction": "SW",
+                "strengthBeaufort": 5
+            },
+            "visibility": 45000,
+            "airPressure": 1015.6
+        }
+    ]
+}
